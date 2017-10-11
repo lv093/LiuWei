@@ -6,6 +6,14 @@ title: 你好，世界
 <h2>{{ page.title }}</h2>
 
 <p>下载PDF文件</p>
+{% highlight ruby %}
+def show
+	@widget = Widget(params[:id])
+	respond_to do |format|
+		format.html # show.html.erb
+		format.json { render json: @widget }
+	end
+{% endhighlight ruby %}
 从下面的截图可以看到：
 	![有帮助的截图]({{site.url}}/assets/screenshot.jpg)
 
