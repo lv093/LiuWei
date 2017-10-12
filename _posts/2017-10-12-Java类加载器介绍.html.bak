@@ -19,4 +19,3 @@ published: true
 <h3>1、用户自定义的类加载器</h3>
 	要创建用户自己的类加载器，只需扩展java.lang.ClassLoader类，然后覆盖他的
 	findClass(String name)方法，根据参数指定类的名字，返回对应的Class对象的引用。
-	----更新于{{ page.date | date_to_string}}
