@@ -9,9 +9,9 @@ published: true
 ---
 <h2>{{ page.title }}</h2>
 <h1>{{ page.author }}</h1>
-<h5>{{ page.date }}<h5>
-<h5>{{ page.category }}<h5>
-<h5>{{ page.description }}<h5>
+<h5>{{ page.date }}</h5>
+<h5>{{ page.category }}</h5>
+<h5>{{ page.description }}</h5>
 <h3>1、用户自定义的类加载器</h3>
 	要创建用户自己的类加载器，只需扩展java.lang.ClassLoader类，然后覆盖他的
 	findClass(String name)方法，根据参数指定类的名字，返回对应的Class对象的引用。
