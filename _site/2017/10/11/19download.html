@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+　<head>
+　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　<title>你好，世界</title>
+　</head>
+　<body>
+　　　　<h2>你好，世界</h2>
+
+<p>下载PDF文件</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">show</span>
+	<span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:id</span><span class="p">])</span>
+	<span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+		<span class="nb">format</span><span class="p">.</span><span class="nf">html</span> <span class="c1"># show.html.erb</span>
+		<span class="nb">format</span><span class="p">.</span><span class="nf">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json: </span><span class="vi">@widget</span> <span class="p">}</span>
+	<span class="k">end</span></code></pre></figure>
+从下面的截图可以看到：
+	![有帮助的截图](http://localhost:4000/assets/screenshot.jpg)
+
+<p>11 Oct 2017</p>
+　</body>
+</html>
