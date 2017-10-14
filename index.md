@@ -21,7 +21,7 @@ layout: default
 		<!--
           <a href="{{ post.url }}" class="title">{{ post.title }}</a>
 		-->
-		<a href="{{ post.url }}">{{ post.title }}</a>
+		<a href="/Liuwei/{{ post.url }}">{{ post.title }}</a>
           <div class="title-desc">{{ post.description }}</div>
         </li>
         {% endfor %}
