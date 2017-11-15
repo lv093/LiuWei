@@ -20,6 +20,7 @@ layout: default
         <li>
           <a href="/Liuwei/{{ post.url }}" class="title">{{ post.title }}</a>
           <div class="title-desc">{{ post.description }}</div>
+		  <div class="date-desc">{{ post.date }}</div>
         </li>
         {% endfor %}
       </ul>
