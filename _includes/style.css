@@ -567,3 +567,21 @@ li.L9 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
+
+<style>
+  table{
+    border-left:1px solid #000000;
+	border-top:1px solid #000000;
+    width: 100%;
+    word-wrap:break-word;
+	word-break:break-all;
+  }
+  table th,td{
+	border-left:1px solid #000000;
+    border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #000000;
+  }
+</style>
